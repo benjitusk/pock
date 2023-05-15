@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		3400F92D264EBBC8003B2B4C /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3400F92C264EBBC8003B2B4C /* Media.xcassets */; };
-		340D5BA326861A67001D73F8 /* Secrets.plist in Resources */ = {isa = PBXBuildFile; fileRef = 340D5BA226861A67001D73F8 /* Secrets.plist */; };
 		340D5BA92687038C001D73F8 /* DebugConsoleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340D5BA72687038C001D73F8 /* DebugConsoleViewController.swift */; };
 		340D5BAA2687038C001D73F8 /* DebugConsoleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 340D5BA82687038C001D73F8 /* DebugConsoleViewController.xib */; };
 		340D5BAF2687A474001D73F8 /* NSFilterTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340D5BAE2687A474001D73F8 /* NSFilterTextField.swift */; };
@@ -748,7 +747,6 @@
 			files = (
 				344C9A1E260674E5009AA07C /* Relaunch in Resources */,
 				34291B69263EDF9800768B08 /* PreferencesViewController.xib in Resources */,
-				340D5BA326861A67001D73F8 /* Secrets.plist in Resources */,
 				34564DBE25F81E590093E5E0 /* Assets.xcassets in Resources */,
 				34564DD925F826340093E5E0 /* NSMenuItemCustomView.xib in Resources */,
 				34A1A4AD25FBDAA20086500F /* Localisations.strings in Resources */,

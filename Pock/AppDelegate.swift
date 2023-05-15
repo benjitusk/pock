@@ -6,9 +6,6 @@
 //
 
 import Cocoa
-import AppCenter
-import AppCenterAnalytics
-import AppCenterCrashes
 
 @main
 class AppDelegate: NSObject, NSApplicationDelegate {
@@ -28,17 +25,6 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 		Roger.allowedLevels = []
 		#endif
 		
-		/// Initialise AppCenter stuff (Analytics & Crash)
-		#if !DEBUG
-		if let path = Bundle.main.path(forResource: "Secrets", ofType: "plist") {
-			if let secrets = NSDictionary(contentsOfFile: path) as? [String: String], let secret = secrets["AppCenter"] {
-				AppCenter.start(withAppSecret: secret, services: [
-					Analytics.self,
-					Crashes.self
-				])
-			}
-		}
-		#endif
 
 		/// Add main bar menu item
 		addMainBarItem()
